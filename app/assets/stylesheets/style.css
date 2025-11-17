@@ -1,0 +1,97 @@
+/* Page wrapper */
+body {
+  font-family: system-ui, sans-serif;
+  padding: 40px;
+}
+
+/* Title */
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Label */
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Input field */
+form input[type="text"] {
+  width: 100%;
+  max-width: 600px;
+  height: 44px;
+  padding: 10px 12px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+/* Submit button */
+form input[type="submit"] {
+  background-color: #0d6efd;   /* Bootstrap blue */
+  color: white;
+  font-size: 18px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Submit hover */
+form input[type="submit"]:hover {
+  background-color: #0b5ed7;
+}
+
+/* Title */
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/* Question block */
+.question-block {
+  padding: 10px 20px;
+  border-left: 6px solid #ccc;
+  margin-bottom: 25px;
+}
+
+.question-block em {
+  color: #555;
+  font-style: italic;
+  display: block;
+  margin-top: 10px;
+}
+
+/* Coach answer block */
+.answer-block {
+  background: #fffbe6;  /* light yellow */
+  padding: 20px;
+  border-left: 6px solid #ccc;
+  margin-bottom: 30px;
+}
+
+.answer-block strong {
+  font-size: 20px;
+}
+
+.answer-block em {
+  color: #555;
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Link at bottom */
+.back-link {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
